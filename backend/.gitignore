@@ -1,8 +1,8 @@
-EOF
+
 # Python-specific ignore rules
 
-**pycache**/
-\*.pyc
+pycache/
+*.pyc
 
 # Virtual environment directory
 
@@ -11,4 +11,10 @@ venv/
 # Operating system generated files
 
 .DS_Store
-EOF
+
+#Secret/Environment variables file
+.env
+backend/.env
+
+
+
